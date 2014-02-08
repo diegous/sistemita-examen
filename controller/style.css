@@ -1,0 +1,47 @@
+body {
+    font-family: verdana, arial, helvetica, sans-serif;
+    color: #333;
+    background-color: #333;
+    text-align: center;
+}
+#header, #content{
+    border-radius: 25px;
+    width: 400px; 
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;  
+    background: #ccc;
+    border: 5px solid #666;
+    text-align:left; 
+    width: 700px;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 400%;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.error{
+  color: red;
+  border-color: red;
+}
+
+td, th{
+  border: 1px solid #333;
+  border-spacing: 0.5rem;
+}
+
+table{
+}
+
+
+
+
