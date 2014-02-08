@@ -4,6 +4,7 @@ require_once('../conf/load.php');
 
 /* -- Variables -- */
 $page_title = 'Formulario';
+
 if(isset($_SESSION['user']))
 {
   $contenido = "../view/form.php";

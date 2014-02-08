@@ -3,9 +3,10 @@
 require_once('../conf/load.php');
 
 /* -- Variables -- */
+$page_title = 'Listado';
+
 if(isset($_SESSION['user']))
 {
-  $page_title = 'Listado';
   $logout_content = '../view/logout.php';
   if($user_list = Client::getAll())
   {
