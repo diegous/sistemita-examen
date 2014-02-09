@@ -1,6 +1,9 @@
 <script>
-  function send()
-  {             
+$(document).ready(function()
+{
+  $('#login_form').submit(function(evt)
+  {
+    evt.preventDefault();
     $.ajax(
     {
       type: 'POST',
@@ -26,10 +29,11 @@
           console.log("Error status:", jqXHR.status);
         }
     });
-  };
+  });
+});
 </script>
 <form id="login_form" method="post" name="login_form">
   Nombre de usuario<input type="text" id="username" placeholder="Nombre de usuario"/><br>
   Contrase&ntilde;a<input type="password" id="password" placeholder="Contrase&ntilde;a"/>
-  <button id="sendButon" type="button" onclick="send()">Login</button>
+  <input type="submit" id="sendButon" value="Login"/>
 </form>
