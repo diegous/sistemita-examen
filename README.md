@@ -5,7 +5,7 @@ Sistemita para entrevista
 
 Configuración
 =============
-- **DocumentRoot** debe apuntar a /controller
+- **DocumentRoot** debe apuntar a **/controller**
 - El servidor debe tener instalado **MDB2** del repositorio _**Pear**_
 - La base de datos es MySQL la conexión se hace con usuario _root_ y contraseña _root_. Esto se puede modificar en **/conf/ConnectionManager.php**
 

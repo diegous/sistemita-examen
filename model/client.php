@@ -29,7 +29,7 @@ class Client
         $obj->setId($data['client_id']);
       }
 
-      if(isset($data['vip']))
+      if(isset($data['vip']) && $data['vip'])
       {
         $obj->setVip(1);
       }
